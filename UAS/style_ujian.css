@@ -1,0 +1,121 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* === Navbar Styling === */
+
+.navbar .nav-link.active {
+    color: #5699ff;
+    /* Warna untuk link aktif */
+    font-weight: bold;
+    /* Penekanan */
+}
+
+.navbar .nav-link:hover {
+    color: #0056b3;
+    /* Warna untuk hover */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.nav a.active {
+    color: #00f;
+}
+
+.container {
+    padding: 20px;
+}
+
+.container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.exam-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exam-details {
+    flex: 1;
+}
+
+.exam-details p {
+    margin: 5px 0;
+}
+
+.exam-result {
+    text-align: center;
+    width: 100px;
+}
+
+.exam-result p {
+    margin: 5px 0;
+}
+
+.exam-result .score {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer .social-icons {
+    margin: 10px 0;
+}
+
+.footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .exam-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .exam-result {
+        width: 100%;
+        text-align: left;
+        margin-top: 10px;
+    }
+}

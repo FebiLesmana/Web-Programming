@@ -1,0 +1,242 @@
+/* === General Body Styling === */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* === Heading Styling === */
+
+h1,
+h2,
+h3 {
+    color: #595C5F;
+}
+
+
+/* === Navbar Styling === */
+
+.navbar .nav-link.active {
+    color: #5699ff;
+    /* Warna untuk link aktif */
+    font-weight: bold;
+    /* Penekanan */
+}
+
+.navbar .nav-link:hover {
+    color: #0056b3;
+    /* Warna untuk hover */
+}
+
+
+/* === Hero Image === */
+
+.hero-image {
+    max-width: 80%;
+    /* Membatasi ukuran gambar */
+    border-radius: 10px;
+    /* Sudut membulat */
+}
+
+
+/* === Card Shadow Effect === */
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* === Section Spacing === */
+
+section {
+    scroll-margin-top: 70px;
+    /* Offset untuk sticky navbar */
+}
+
+
+/* === Map Container Styling === */
+
+.map-container iframe {
+    border-radius: 8px;
+    /* Membulatkan sudut */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Bayangan */
+}
+
+
+/* === Section Visi Misi === */
+
+.list-unstyled li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+/* === Section: Tentang SMP === */
+
+.bg-custom {
+    background-color: #EFF8FF;
+    color: #ffffff;
+}
+
+.bg-custom h2,
+.bg-custom h3,
+.bg-custom p {
+    color: #595C5F;
+    /* Warna teks */
+}
+
+.bg-custom .card {
+    background-color: #ffffff;
+    /* Warna latar dalam card */
+    color: #BFE5FF;
+    /* Warna teks di dalam card */
+}
+
+
+/* === Section: E-Learning === */
+
+.section-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.course-card,
+.ujian-card {
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
+.course-card h5,
+.ujian-card h5 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.course-card p,
+.ujian-card p {
+    color: #757575;
+}
+
+.course-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.course-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.course-card img.course-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.course-card h5 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.course-card p {
+    color: #757575;
+    font-size: 0.9rem;
+}
+
+
+/* === Responsive Adjustments === */
+
+@media (max-width: 768px) {
+    .section-title {
+        text-align: center;
+    }
+}
+
+
+/* === Section: Pendaftaran === */
+
+.hero {
+    background-color: #e2edff;
+    padding: 40px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    flex: 1;
+    max-width: 500px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.download {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.download .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+/* === Footer === */
+
+.footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.h3_footer {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.footer .social-icons {
+    margin: 10px 0;
+}
+
+.footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
